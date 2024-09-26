@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INVOICE</title>
+    <link rel="stylesheet" href="./home.css">
+    <style>
+        
+    </style>
+</head>
+<body  >
+    <div id="nav">
+        <a href="./invoice.html"><button style="background-color: green; color: white;">INVOICE</button></a>
+        <a href="./purchase.html"><button>PURCHASE ENTRY</button></a>
+        <a href="./invoice details .html"><button>INVOICE DETAILS</button></a>
+        <a href="./report.html"><button>REPORT</button></a>
+        <a href="./home.html"><button>HOME</button></a>
+        <a href="./index.html"><BUtton style="background-color: red; color: white;">LOG OUT</BUtton></a>
+    </div>
+    
+        
+        
+        
+     </div>
+     <div id="pro">
+        <label>INVOICE DATE</label>
+        <input type="text" placeholder="" id="do" ><br>
+        <label>PRODUCT</label>
+        <input type="text" placeholder="" id="product" style="margin-top: 1rem; position: relative;left: 2.2rem;"><br>
+        <label>QUANTITY</label>
+        <input type="number" placeholder=""   id="qty" style="margin-top: 1rem;position: relative; left: 1.7rem;"><br>
+        <label>RATE</label>
+        <input type="text" placeholder=""   id="rate" style="margin-top: 1REM; position: relative;left: 4.3rem;"><br>
+        <button id="add" onclick="a()">ADD</button>
+       
+     </div>
+     <div id="tab">
+        <table border="3">
+
+            <thead>
+                <th id="no" width="200px">DATE</th>
+                <th width="500px" >PRODUCT</th>
+                <th width="300px" >QTY</th>
+                <th width="100px" >RATE</th>
+                <th width="100px">TOTAL</th>
+            </thead>
+             <tbody id="body">
+             
+                
+
+
+             </tbody>
+             <div id="grand">
+                <h1>sub total</h1>
+                
+
+             </div>
+           
+        </table>
+     </div>
+    
+                
+
+
+
+</body>
+<script>
+    
+
+    const a=()=>{
+    product=document.getElementById("product").value
+    qty=document.getElementById("qty").value
+    rate=document.getElementById("rate").value
+    id=document.getElementById("do").value
+   
+    
+    total=qty*rate
+    
+
+    for(subtotal=total;subtotal<total.length;subtotal++){
+        subtotal+=total[subtotal].rate*total[subtotal].qty
+
+        
+    }
+    
+    
+
+    document.getElementById("body").innerHTML+=`<tr><td>`+id+`</td><td>`+product+`</td><td>`+qty+`</td><td>`+rate+`</td><td>`+total+`</td></tr>`
+    document.getElementById("grand").innerHTML=`<h2>`+subtotal+`</h2>`
+   
+
+
+
+    }
+
+    /*if(product=="chicken burger"){
+        total=qty*120
+
+    
+
+        document.getElementById("body").innerHTML+=`<tr><td>`+id+`</td><td>`+product+`</td><td>`+qty+`</td><td>`+120+`</td><td>`+total+`</td></tr>`
+
+
+    }
+    else if(product=="veg burger"){
+        total=qty*100
+        document.getElementById("body").innerHTML+=`<tr><td>`+id+`</td><td>`+product+`</td><td>`+qty+`</td><td>`+100+`</td><td>`+total+`</td></tr>`
+     }
+     else if()
+}*/
+
+   
+
+
+
+</script>
+
+
+</html>

@@ -1,0 +1,123 @@
+body{
+    background-image: url(./wall.jpg);
+
+    
+}
+div{
+    background-color: transparent;
+    margin-left: 37%;
+    width: 300px;
+    height: 300px;
+    margin-top: 1rem;
+    padding-left: 4rem;
+    padding-top: 6rem;
+    border: 1px solid gray;
+    border-radius: 30px;
+    box-shadow: 5px 2px 30px 5px  black;
+}
+input{
+    margin-top: 1rem;
+    width: 13rem;
+    border: 2px solid white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: white;
+    border-right-color:transparent ;
+    background-color: transparent;
+    color: white;
+    height: 2rem;
+    padding-left: 1.5rem;
+    
+}
+button{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 9rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+}
+h1{
+    color: red;
+    position:absolute;
+    top: 7rem;
+    text-align: center;
+    margin-left: 5rem;
+}
+
+/* media for mobile */
+
+@media (min-width:320px)and (max-width:767px) {
+    body{
+        background-image: url(./wall.jpg);
+        overflow: hidden;
+        height: 280px;
+    
+    }
+    div{
+        background-color: transparent;
+        margin-left: 4%;
+        width: 280px;
+        height: 400px;
+        margin-top: 2.5rem;
+        padding-left: 3rem;
+        padding-top: 2rem;
+        border: 1px solid gray;
+        border-radius: 30px;
+        box-shadow: 5px 2px 30px 5px  black;
+}
+#sarp{
+    margin-left: 2rem;
+}
+input{
+    margin-top: 1rem;
+    width: 11rem;
+    border: 2px solid white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: white;
+    border-right-color:transparent ;
+    background-color: transparent;
+    color: white;
+    height: 2rem;
+    padding-left: 1.5rem;
+    position: relative;
+    top: 5rem;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    
+}
+button{
+    margin-top: 7rem;
+    margin-left: 3rem;
+    width: 10rem;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+h1{
+    color: red;
+    position:absolute;
+    top: 8.8rem;
+    left: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+
+}
+.fa-solid{
+    position: absolute;
+    top: 21.6rem;
+    left: 6rem;
+}
+#oil{
+    position: absolute;
+    top: 18.3rem;
+}
+}
+
+
+  
+    

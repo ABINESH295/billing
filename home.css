@@ -1,0 +1,261 @@
+#nav{ 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 661px;
+    padding-top: 1rem;
+    width: 200px;
+    padding-left: 1rem;
+}
+    body{
+     background-image: url(./co.jpg);
+     background-size: cover;
+
+}
+button{
+    background-color: white;
+    width: 10rem;
+    height: 3rem;
+}
+*{
+    margin: 0;
+}
+
+/* invoice page */
+#customer{
+    position: absolute;
+    top: 0rem;
+    left: 13.5rem;
+    background-color: aquamarine;
+    height: 80px;
+    width: 1083px;
+    padding-top: .5rem;
+    
+}
+input{
+    margin-left: 2rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: black;
+    color: white;
+}
+/* product details */
+#pro{
+    position: absolute;
+    top: .1rem;
+    left: 13.4rem;
+    background-color:burlywood;
+    width: 1070px;
+    overflow: hidden;
+
+}
+#tab{
+    position: absolute;
+    top: 16rem;
+    margin-left: 13rem;
+   
+    color: blue;
+    text-align: center;
+    border: 2px solid black;
+}
+label{
+    margin-left: 2rem;
+    color: blue;
+}
+input:hover{
+    background-color: lawngreen;
+    color: black;
+}
+tr{
+    background-color: blueviolet;
+    color: white;
+}
+th{
+    background-color: brown;
+    color: white;
+}
+#add{
+    background-color: red;
+    color: white; 
+    position: relative; 
+    left: 13rem;
+    width: 100px;
+    height: 40px; 
+    margin-top: 1rem;
+}
+
+
+/* mobile screen */
+
+@media (min-width:320px)and (max-width:767px) {
+    body{
+        background-image: url(./co.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: scroll;
+    }
+    
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 750px;
+    padding-top: .1rem;
+    width: 85px;
+    padding-left: .3rem;
+}
+button{
+    background-color: white;
+    width: 5rem;
+    height: 3rem;
+    font-size: 10px;
+}
+*{
+    margin: 0;
+}
+
+/* invoice page */
+
+input{
+    margin-left: 1rem;
+    width: 9rem;
+    height: 1rem;
+    background-color: black;
+    color: white;
+}
+/* product details */
+#pro{
+    position: absolute;
+    top: .5rem;
+    left: 5.6rem;
+    background-color:burlywood;
+    width: 300px;
+    overflow: hidden;
+
+}
+#tab{
+    position: absolute;
+    top: 11rem;
+    margin-left: 5.5rem;
+    
+    
+    color: red;
+    text-align: center;
+    border: 2px solid black;
+    overflow: scroll;
+}
+#add{
+    background-color: red;
+    color: white;
+    margin-left: -2rem;
+    height: 30px;
+    margin-top: .5rem;
+}
+label{
+    margin-left: 1rem;
+    color: blue;
+}
+input:hover{
+    background-color: lawngreen;
+    color: black;
+}
+tr{
+    background-color: blueviolet;
+    color: white;
+}
+th{
+    background-color: brown;
+    color: white;
+}
+}
+/* screen for tablet */
+
+@media (min-width:767px)and (max-width:1023px) {
+    body{
+        background-image: url(./co.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: scroll;
+    }
+    
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 750px;
+    padding-top: .1rem;
+    width: 85px;
+    padding-left: .3rem;
+}
+button{
+    background-color: white;
+    width: 5rem;
+    height: 3rem;
+    font-size: 10px;
+}
+*{
+    margin: 0;
+}
+
+/* invoice page */
+
+input{
+    margin-left: 1rem;
+    width: 9rem;
+    height: 1rem;
+    background-color: black;
+    color: white;
+}
+/* product details */
+#pro{
+    position: absolute;
+    top: .5rem;
+    left: 5.6rem;
+    background-color:burlywood;
+    width: 720px;
+    overflow: hidden;
+
+}
+#tab{
+    position: absolute;
+    top: 11.4rem;
+    left: -7.5rem;
+    color: red;
+    text-align: center;
+    border: 2px solid black;
+    overflow: scroll;
+}
+#add{
+    background-color: red;
+    color: white;
+    margin-left: -2rem;
+    height: 30px;
+    margin-top: .5rem;
+}
+label{
+    margin-left: 1rem;
+    color: blue;
+}
+input:hover{
+    background-color: lawngreen;
+    color: black;
+}
+tr{
+    background-color: blueviolet;
+    color: white;
+}
+th{
+    background-color: brown;
+    color: white;
+}
+}
+
+
+
+
+
